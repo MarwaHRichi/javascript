@@ -1,0 +1,51 @@
+
+body{
+    margin-top: 50px;
+    background-color: white;
+}
+.container-fluid{
+    background-color: white;
+}
+h2{
+    color: rgb(52, 163, 207);
+    text-align: center;
+}
+.connecter{
+    /*background-color: white;*/
+    margin-top: 100px;
+    height: 380px;
+    width: 550px;
+    margin-left: 500px;
+    text-align: left;
+    /*border: solid rgb(204, 203, 203) 1px;*/
+    
+}
+
+hr{
+    width: 180px
+}
+.form-1{
+    text-align: justify;
+    margin-left: -380px;
+    margin-top: 20px;
+}
+.form-control{
+    width: 450px;
+}
+label{
+    width: 500px;
+}
+.btn-connexion{
+    width: 450px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    /*width: 180px;*/
+}
+.motpass{
+    color: rgb(52, 163, 207);
+    font-size: 12px;
+    margin-left: 190px;    
+}
+
