@@ -6,6 +6,7 @@ var msg = document.getElementById("nonvalid");
 var msg1 = document.getElementById("nonvalid1");
 validation.addEventListener("click", login);
 //var mailregex = /@/g;
+//login
 function login(e) {
     e.preventDefault();
     if(mail.value == ""){
