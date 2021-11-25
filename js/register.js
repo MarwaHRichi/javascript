@@ -53,22 +53,8 @@ function register(e) {
         pass_valid.innerHTML += "le mot de passe n'est pas correct";
         pass_valid.style.color ="orange";
     }
-    /*JSON.parse(localStorage.getItem("user"));
-    const user = {
-        nom: nom.value,
-        prenom : prenom.value,
-        email : mail.value,
-        password : password.value,
-    }
-    localStorage.setItem("users", JSON.stringify(user));*/
+    
     const users = JSON.parse(localStorage.getItem("users")|| []);
-    /*const user = [];*/
-    /*const user = [{
-        nom : nom.value,
-        prenom : prenom.value,
-        email : mail.value,
-        password : password.value,
-    }];*/
     
         user.push({
             nom : nom.value,
@@ -80,15 +66,4 @@ function register(e) {
     return {nom, prenom, mail, password}
      console.log( typeof (users)); 
     }
-        
-
-
-/*const user = ({
-        nom : nom.value,
-        prenom : prenom.value,
-        email : mail.value,
-        password : password.value
-    });
-    localStorage.setItem("users", JSON.stringify(user));
-    var h = JSON.parse(localStorage.getItem("users")) || [];
-     console.log( typeof (h)); */
+    
